@@ -7,7 +7,6 @@ Simply Term dose not need any dependancys as it only uses defalt python packages
 Simply Term is not yet on PyPI so this is the only place to get it.
 
 [![GitHub release](https://img.shields.io/github/v/release/Reese-WP/SimplyTerm.svg)](https://github.com/Reese-WP/SimplyTerm/releases)
-
 [![GitHub license](https://img.shields.io/github/license/Reese-WP/SimplyTerm.svg)](https://github.com/Reese-WP/SimplyTerm/blob/main/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/Reese-WP/SimplyTerm.svg)](https://github.com/Reese-WP/SimplyTerm/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
