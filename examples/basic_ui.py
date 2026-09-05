@@ -1,4 +1,4 @@
-from terminalui import *
+from simplyterm import *
 
 #this sets up the isolated terminal environment, and will reset the terminal to normal when the program exits, even if it crashes.
 enter()
@@ -11,11 +11,11 @@ try:
 
     while key != "q":
 
-        box(0,0,screen.width, screen.height, screen.buffer)
-        box((screen.width//2)-8, (screen.height//2-1), 16, 4, screen.buffer)
+        box(0,0,screen.width, screen.height, screen)
+        box((screen.width//2)-8, (screen.height//2-1), 16, 4, screen)
 
-        text(0, screen.height//2, "Hello!", screen.width, screen.buffer, center=True)
-        text(0, (screen.height//2)+1, "key " + lastKey + " pressed!", screen.width, screen.buffer, center=True)
+        text(0, screen.height//2, "Hello!", screen.width, screen, center=True)
+        text(0, (screen.height//2)+1, "key " + lastKey + " pressed!", screen.width, screen, center=True)
 
         #the only thing you really need to do besides initalizing the screen, and enter() is to push the buffer to the screen, this will only print what has changed since the last push, keeping things efficient.
         screen.push()
